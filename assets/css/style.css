@@ -1,0 +1,45 @@
+body{
+	background: url("../images/hollywood.jpg");
+  background-attachment: fixed;
+	text-align: center;
+}
+
+html, body{
+  height:100%;
+}
+
+#subwrapper{
+  position: relative;
+  top:20%;
+  box-sizing: border-box;
+  background-color: #eee; 
+}
+
+button{
+  display:block;
+  width:400px;
+  height:100px;
+  margin: 10px auto 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#quiz-area h2{
+  margin-top: 50px;
+}
